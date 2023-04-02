@@ -7,7 +7,6 @@ class ProductPage(BasePage):
         add_button = self.browser.find_element(*ProductPageLocators.BASKET_BUTTON)
         add_button.click()
         self.solve_quiz_and_get_code()
-        time.sleep(20)
     
     def should_be_title_and_price(self):
         title_book = self.browser.find_element(*ProductPageLocators.TITLE_BOOK).text
