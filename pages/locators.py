@@ -22,3 +22,4 @@ class ProductPageLocators():
     PRICE_BOOK = (By.CSS_SELECTOR, 'div.alert-info strong')
     TITLE_BOOK_1 = (By.CSS_SELECTOR, 'div.col-sm-6.product_main h1')
     PRICE_BOOK_1 = (By.CSS_SELECTOR, 'div.col-sm-6.product_main p.price_color')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alert-success')
