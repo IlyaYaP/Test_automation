@@ -1,7 +1,5 @@
 from .base_page import BasePage
-from .locators import MainPageLocators, LoginPageLocators
-import faker
-import time
+from .locators import LoginPageLocators
 
 
 class LoginPage(BasePage):
